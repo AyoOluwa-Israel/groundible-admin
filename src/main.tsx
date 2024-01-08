@@ -10,12 +10,12 @@ import ScrollToTop from "./libs/ScrollToTop.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-  <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
-      <ScrollToTop />
-      <App />
-    </BrowserRouter>
-  </QueryClientProvider>
-  <Toaster position="top-right" reverseOrder={false} />
-</React.StrictMode>,
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <ScrollToTop />
+        <App />
+      </BrowserRouter>
+    </QueryClientProvider>
+    <Toaster position="top-right" reverseOrder={false} />
+  </React.StrictMode>,
 );

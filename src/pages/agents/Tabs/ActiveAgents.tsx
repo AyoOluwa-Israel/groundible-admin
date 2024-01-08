@@ -1,9 +1,5 @@
-
-
 const ActiveAgents = () => {
-  return (
-    <div>ActiveAgents</div>
-  )
-}
+  return <div>ActiveAgents</div>;
+};
 
-export default ActiveAgents
+export default ActiveAgents;

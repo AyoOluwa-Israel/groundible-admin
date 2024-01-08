@@ -1,9 +1,5 @@
-
-
 const UnassignedSurveys = () => {
-  return (
-    <div>UnassignedSurveys</div>
-  )
-}
+  return <div>UnassignedSurveys</div>;
+};
 
-export default UnassignedSurveys
+export default UnassignedSurveys;

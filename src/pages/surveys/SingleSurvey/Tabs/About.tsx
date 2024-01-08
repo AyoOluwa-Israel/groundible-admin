@@ -16,7 +16,7 @@ const About = () => {
           return (
             <div
               className={`flex items-center p-4 py-5 w-[100%] justify-between ${
-                data.length-1 === i || data.length-2 === i ? "" : "border-b-[1px] border-gray-500 "
+                data.length - 1 === i || data.length - 2 === i ? "" : "border-b-[1px] border-gray-500 "
               }`}
               key={`${el.id}--SurveyData`}
             >

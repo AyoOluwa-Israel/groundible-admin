@@ -1,9 +1,5 @@
-
-
 const TextResponses = () => {
-  return (
-    <div>TextResponses</div>
-  )
-}
+  return <div>TextResponses</div>;
+};
 
-export default TextResponses
+export default TextResponses;

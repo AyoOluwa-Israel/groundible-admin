@@ -8,14 +8,15 @@ const unsplashImageUrls = [
 ];
 
 const UpcomingMeetings = () => {
-
-  const value = [0, 1, 2, 3, 4, 5]
+  const value = [0, 1, 2, 3, 4, 5];
   return (
     <div className="border-[1px] border-borderGrey bg-white rounded-lg my-[1em] w-[100%]">
       {value.slice(0, 5).map((el, i) => {
-        
         return (
-          <div className={`flex p-4 justify-between items-center ${ i === 4  ? "" : "border-b-[1px] border-borderGrey "} `} key={`${el}--UpcomingMeetings`}>
+          <div
+            className={`flex p-4 justify-between items-center ${i === 4 ? "" : "border-b-[1px] border-borderGrey "} `}
+            key={`${el}--UpcomingMeetings`}
+          >
             <div className="flex items-center space-x-4">
               <div className="w-[45px] h-[45px] rounded bg-gray-100 border-[1px] border-borderGrey flex items-center justify-center text-lg">
                 <BsCalendar4Week />

@@ -1,8 +1,5 @@
-
 const Responses = () => {
-  return (
-    <div>index</div>
-  )
-}
+  return <div>index</div>;
+};
 
-export default Responses
+export default Responses;

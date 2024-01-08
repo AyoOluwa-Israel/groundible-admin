@@ -9,17 +9,13 @@ export type TAgents = {
   more: JSX.Element;
 };
 
-
-
-
-
 export type TAgentsDashboard = {
   image: JSX.Element;
   name: string;
   email: string;
-  qualification: string
-  dateJoined:  string
-  gender: string
+  qualification: string;
+  dateJoined: string;
+  gender: string;
   location: JSX.Element;
   responses: JSX.Element;
   status: JSX.Element;

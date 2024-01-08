@@ -10,7 +10,6 @@ import About from "./Tabs/About";
 import Responses from "./Tabs/Responses";
 import Agents from "./Tabs/Agents";
 
-
 const cardTab = [
   { id: 1, name: "% of survey completed", number: <p>62%</p>, image: TotalAgents },
   { id: 2, name: "Active agents", number: 5, image: ActiveAgents },
@@ -94,28 +93,25 @@ const SingleSurvey = () => {
           })}
         </div>
 
-
         <div className="flex items-center justify-between">
-        <div className="flex sm:space-x-4 space-x-2 py-2 ">
-          {surveyTab.map((el) => {
-            return (
-              <p
-                className={` pb-[4px] px-2 cursor-pointer sm:text-sm text-xs ${
-                  step === el.id ? "border-b-[2px] text-auxiliary border-auxiliary font-semibold " : "text-headerGrey"
-                } `}
-                onClick={() => handleTabChange(el.id)}
-                key={el.id}
-              >
-                {el.name}
-              </p>
-            );
-          })}
+          <div className="flex sm:space-x-4 space-x-2 py-2 ">
+            {surveyTab.map((el) => {
+              return (
+                <p
+                  className={` pb-[4px] px-2 cursor-pointer sm:text-sm text-xs ${
+                    step === el.id ? "border-b-[2px] text-auxiliary border-auxiliary font-semibold " : "text-headerGrey"
+                  } `}
+                  onClick={() => handleTabChange(el.id)}
+                  key={el.id}
+                >
+                  {el.name}
+                </p>
+              );
+            })}
+          </div>
         </div>
 
-        
-      </div>
-
-      <div>{displayStep()}</div>
+        <div>{displayStep()}</div>
       </div>
     </div>
   );

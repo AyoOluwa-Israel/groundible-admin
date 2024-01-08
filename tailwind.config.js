@@ -8,7 +8,7 @@ export default {
         secondary: "#BFAAFF",
         auxiliary: "#8837FF",
         grey: "#F6F7FA",
-        borderGrey: "#3B3C4A"
+        borderGrey: "#3B3C4A",
       },
       fontFamily: {
         primary: ["'Space Grotesk'", "sans-serif"],

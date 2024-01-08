@@ -1,9 +1,5 @@
-
-
 const AudioResponses = () => {
-  return (
-    <div>AudioResponses</div>
-  )
-}
+  return <div>AudioResponses</div>;
+};
 
-export default AudioResponses
+export default AudioResponses;

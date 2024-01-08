@@ -13,7 +13,8 @@ const tabs = [
 
 const activeStyles = "flex items-center space-x-2 text-secondary border-b-[4px] border-secondary h-[60px] px-2";
 
-const notActiveStyles = "flex items-center space-x-2 text-white h-[60px] cursor-pointer hover:text-secondary group fill-white hover:fill-secondary hover:border-b-[4px] hover:border-secondary ";
+const notActiveStyles =
+  "flex items-center space-x-2 text-white h-[60px] cursor-pointer hover:text-secondary group fill-white hover:fill-secondary hover:border-b-[4px] hover:border-secondary ";
 
 const Header = () => {
   return (

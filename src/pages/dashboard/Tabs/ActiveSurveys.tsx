@@ -1,9 +1,5 @@
-
-
 const ActiveSurveys = () => {
-  return (
-    <div>ActiveSurveys</div>
-  )
-}
+  return <div>ActiveSurveys</div>;
+};
 
-export default ActiveSurveys
+export default ActiveSurveys;

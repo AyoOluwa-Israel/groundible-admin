@@ -1,8 +1,5 @@
-
 const AllAgents = () => {
-  return (
-    <div>AllAgents</div>
-  )
-}
+  return <div>AllAgents</div>;
+};
 
-export default AllAgents
+export default AllAgents;

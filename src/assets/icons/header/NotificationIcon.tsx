@@ -1,5 +1,3 @@
-
-
 export const NotificationIcon = () => (
   <svg
     width="24"
