@@ -1,10 +1,10 @@
 import { TIconButton } from "@/types/ComponentsTypes";
 import React from "react";
 
-const IconButton: React.FC<TIconButton> = ({ type, text, position, onClick, icon }) => {
+const IconButton: React.FC<TIconButton> = ({ type, text, position, onClick, icon, css }) => {
   return (
     <button
-      className="flex items-center space-x-3 bg-[#ECE4FF] border-[1px] border-b-[2px] border-primary px-4 py-2 rounded-sm cursor-pointer"
+      className={`flex items-center space-x-3 bg-[#ECE4FF] ${css} border-[1px] border-b-[2px] border-primary px-4 py-2 rounded-sm cursor-pointer`}
       onClick={onClick}
       type={type}
     >

@@ -11,13 +11,12 @@ export type TAgents = {
 
 export type TAgentsDashboard = {
   image: JSX.Element;
-  name: string;
+  name: JSX.Element;
   email: string;
   qualification: string;
-  dateJoined: string;
+  dateJoined: JSX.Element;
   gender: string;
   location: JSX.Element;
-  responses: JSX.Element;
   status: JSX.Element;
   more: JSX.Element;
 };
