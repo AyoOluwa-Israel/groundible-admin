@@ -3,7 +3,7 @@ import { SlClose } from "react-icons/sl";
 
 interface ModalProps {
   children: ReactNode;
-  onClose: () => void
+  onClose: () => void;
 }
 
 const ModalWithClose: React.FC<ModalProps> = ({ children, onClose }) => {

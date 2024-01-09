@@ -17,13 +17,9 @@ const Tab = [
 const Home = () => {
   const [step, setStep] = useState(1);
 
-
-
   const handleTabChange = (e: number) => {
     setStep(e);
   };
-
- 
 
   const displayStep = () => {
     switch (step) {
@@ -75,10 +71,7 @@ const Home = () => {
         </div>
       </div>
 
-
       <div>{displayStep()}</div>
-
-     
     </div>
   );
 };

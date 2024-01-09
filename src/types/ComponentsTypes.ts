@@ -4,21 +4,20 @@ export type TIconButton = {
   position: "left" | "right";
   onClick?: () => void;
   icon: JSX.Element;
-  css?: string
+  css?: string;
 };
-
 
 export type TPrimaryButton = {
   type: "button" | "reset" | "submit";
   text: string;
   onClick?: () => void;
-  css: string
+  css: string;
 };
 
 export type Option = {
   value: string | number;
   label: string | number;
-}
+};
 
 export type TInputProps = {
   name: string;
@@ -30,9 +29,7 @@ export type TInputProps = {
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   onBlur?: React.FocusEventHandler<HTMLInputElement>;
   disabled?: boolean;
-}
-
-
+};
 
 export type TSelectInputProps = {
   options: Option[];
@@ -44,5 +41,5 @@ export type TSelectInputProps = {
   defaultValue?: string;
   onBlur?: React.FocusEventHandler<HTMLSelectElement>;
   error?: string | undefined | false;
-  label: string
-}
+  label: string;
+};

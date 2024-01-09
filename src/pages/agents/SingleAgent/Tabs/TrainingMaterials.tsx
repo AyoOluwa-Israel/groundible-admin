@@ -1,9 +1,5 @@
-
-
 const TrainingMaterials = () => {
-  return (
-    <div>TrainingMaterials</div>
-  )
-}
+  return <div>TrainingMaterials</div>;
+};
 
-export default TrainingMaterials
+export default TrainingMaterials;

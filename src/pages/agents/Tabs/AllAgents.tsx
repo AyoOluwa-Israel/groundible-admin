@@ -46,9 +46,8 @@ const AllAgents = () => {
       name: (
         <div>
           <Link to="israel" className="font-normal text-sm hover:underline cursor-pointer">
-        Adeleke Israel
+            Adeleke Israel
           </Link>
-        
         </div>
       ),
       email: "johnibukun@gmail.com",
