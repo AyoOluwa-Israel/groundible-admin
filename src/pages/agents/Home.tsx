@@ -46,8 +46,6 @@ const Home = () => {
                 <p className="text-4xl font-semibold">{el.number}</p>
                 <p className="uppercase text-sm">{el.name}</p>
               </div>
-
-             
             </div>
           );
         })}
