@@ -47,7 +47,7 @@ const Home = () => {
                 <p className="uppercase text-sm">{el.name}</p>
               </div>
 
-              {/* <img src={el.image} alt={el.name} className="w-[70px]" /> */}
+             
             </div>
           );
         })}
